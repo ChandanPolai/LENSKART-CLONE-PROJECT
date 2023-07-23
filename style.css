@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppiens",sans-serif;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+/* our first header section styling start */
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-1 p{
+    margin:10px 0 0 15px;
+    user-select: none;
+    font-size: 18px;
+}
+
+.header-1 input{
+    width: 40%;
+    margin: 2px 0;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,66,.5);
+    color: rgba(0,0,66,.5);
+}
+
+.header-1 a{
+    margin: 11px 10px 0 0;
+    text-decoration: none;
+    color: #000042;
+    letter-spacing:1px;
+    font-size: 14px;
+}
+
+.header-1 a:hover{
+    text-decoration: underline;
+}
+/* our first header section styling end */
+
+/* our second nav bar with buttons styling start */
+.navbar{
+    background-color: #ebe5e5;
+    padding: 10px 25px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navbar .nav-content{
+    height: 100%;
+}
+
+.navbar .nav-content a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000042;
+    font-weight: 400;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.nav-content a:hover{
+    text-decoration: underline;
+}
+
+.navbar .nav-buttons button{
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.nav-buttons .nav-btn-1{
+    background-color:rgb(92, 187, 92) ;
+    color: #fff;
+}
+
+.nav-buttons .nav-btn-2{
+    background-color:aqua ;
+    font-size: 18px;
+    color: black;
+}
+
+.nav-buttons .nav-btn-3{
+    background-color:#000042;
+    color: #fff;
+}
+
+/* our second nav bar with buttons styling end */
+/* our first section glassees styling start */
+.glasses-bar{
+    width: 100%;
+    height: 200px;
+    background-color:#e6e3e3;
+    display: flex;
+}
+
+.glasses-bar img{
+    height: 100%;
+    width: 340px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.glasses-bar img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* our first section glassees styling end */
+/* our main banner in lenskart clone styling start */
+main{
+    background-color: red;
+    height: 350px;
+    width: 100%;
+}
+
+main img{
+    height: 100%;
+    width: 100%;
+}
+
+/* our main banner in lenskart clone styling end */
+ /* our second section glassees styling start */
+.glasses-bar2{
+    width: 100%;
+    height: 200px;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.glasses-bar2 .img-bar2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    margin: 5px;
+}
+
+.img-bar2 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-bar2 p{
+    position: absolute;
+    left: 39%;
+    bottom: 12%;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.img-bar2 button{
+    position: absolute;
+    left: 37%;
+    bottom: 3%;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(75, 165, 165);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.img-bar2 button:hover{
+    border: 2px solid #fff;
+    outline: 3px solid rgb(75, 165, 165);
+}
+
+/* our second section glassees styling  */
+
+/* our fashin week photo section styling start */
+.fashion{
+    width: 100%;
+    height: 400px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #000042;
+}
+
+.fashion img{
+    height: 100%;
+    width: 100%;
+}
+/* our fashin week photo section styling end */
+
+ /* our perfect section styling start */
+h2{
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #000042;
+}
+.fashion-2{
+    background-color:#e6e3e3;
+    width: 100%;
+    height: 400px;
+    margin-top:10px;
+    display: flex;
+}
+
+.fashion-2 img{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+ /* our perfect section styling start */
+ /* ojos brand section styling start */
+ .ojos-img{
+    height: 100%;
+    width: 100%;
+ }
+
+ .ojos-img img{
+    height: 100%;
+    width: 100%;
+ }
+/* ojos brand section styling end */
+/* our brand banner styling start */
+.brand-img{
+    height: 100%;
+    width: 100%;
+}
+
+.brand-img img{
+    height: 100%;
+    width: 100%;
+}
+/* our brand banner styling end */
+/* last section of goggles and banners styling start */
+#lastSection{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+#lastSection .img-wrap{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrap .last-goggles{
+    width:450px;
+    margin-right:10px;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.img-wrap .last-goggles:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+/* last section of goggles and banners styling end */
+ /* our footer section styling start */
+ footer{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    background: #000042;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+ }
+
+ footer .footer-col{
+    line-height: 25px;
+ }
+
+ .footer-col ul{
+    list-style: none;
+ }
+
+.footer-col li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-col li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.footer-col  .li1-content{
+    text-transform: uppercase;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.footer-col .li1-content:hover{
+    border-bottom: 2px solid white;
+}
+
+.footer-col img{
+    cursor: pointer;
+    margin: 0 5px 0 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-col img:hover{
+    transform: scale(1.1);
+} */
+ /* our footer section styling end
